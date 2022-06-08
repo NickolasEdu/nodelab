@@ -1,6 +1,6 @@
-console.log(process.argv)
+const flagsValue = require('./get')
 
-const nameOne = process.argv[3]
-const saudation = process.argv[5]
+const nameOne = flagsValue.name
+const saudation = flagsValue.greeting
 
 console.log(`Olá ${nameOne}, ${saudation}`)
