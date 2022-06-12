@@ -1,10 +1,4 @@
-const flagsValue = require('./get')
+const flagName = require('./getName')
+const flagHello = require('./getHello')
 
-const nameOne = flagsValue.name
-const saudation = flagsValue.greeting
-
-const nameTwo = flagsValue.flagName
-const saudFlag = flagsValue.flagGreeting
-
-console.log(`Olá ${nameOne}, ${saudation}`)
-console.log(`Olá ${nameTwo}, ${saudFlag}`)
+console.log(`Olá ${flagName}, ${flagHello}!`)
